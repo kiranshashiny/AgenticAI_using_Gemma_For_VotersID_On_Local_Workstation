@@ -31,8 +31,6 @@ Some questions or prompts can be
 
 - Search for Duplicate Voters ID.
 
-- Sort for any Duplicate Voters ID.
-
 - Give me voters who are less than 18 years of age.
 
 - Give me voters who are above 90 years of age.
@@ -69,7 +67,14 @@ page_003.png,1,10,SOH6171235,Name : SUCHITHRA C S,Fathers Name: SHIVANNA,3,21,Fe
 The voters.csv was from the SIR Electoral rolls 
 <br>
 
-<img width="862" height="283" alt="image" src="https://github.com/user-attachments/assets/7f977e2b-973d-4367-80a4c10ce637822e" />
+
+<img width="850" height="44" alt="image" src="https://github.com/user-attachments/assets/810906c2-6afa-4a03-a9e8-947b94ae14c7" />
+
+
+<img width="850" height="19" alt="image" src="https://github.com/user-attachments/assets/e545f804-dbd4-41c6-93ae-97f3a794e869" />
+
+<img width="847" height="20" alt="image" src="https://github.com/user-attachments/assets/80679921-c437-4136-a666-3a1ad8816689" />
+
 
 <br>
 
@@ -77,7 +82,9 @@ The voters.csv was from the SIR Electoral rolls
 
 ### First
 
-Installed Gemma3 on my local workstation
+Installed Gemma3 on my local workstation. Gemma was used as it had a small footprint, good for text processing and did not need any other subscription based API key for processing text.
+
+
 ```
 $ ollama list
 NAME                 ID              SIZE      MODIFIED      
@@ -222,9 +229,6 @@ Processing request...
 ------------------------------------------------------------
 
 
-```
-
-```
 
 Ask a question about voters.csv > Give me the oldest Voter in this database ?
 
