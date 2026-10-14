@@ -3,7 +3,16 @@
 
 
 The objective of this project was to show to build an Agentic AI that uses a local voters database ( a CSV file ) and user can 
-ask questions about the voters in the database.
+ask questions about the voters in the database using natural language.
+
+Some questions can be :
+
+
+Give me all voters who are in the age group of 60-70 
+
+Are there any duplicate Voter IDs 
+
+etc etc
 
 To start with I created a voters database by going to the SIR Electoral rolls PDF file, and picked up a certain part number
 and converted them to PNG files, and used Google Gemini API to parse the pngs to a CSV file.
